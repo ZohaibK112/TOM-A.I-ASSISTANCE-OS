@@ -2,7 +2,7 @@ import requests
 import pywhatkit as kit 
 
 def find_my_ip():
-    ip_address = requests.get('https://api.ipify.org?format=json').json()
+    ip_address = requests.get('your_https_link').json()
     return ip_address['ip']
 
 def youtube(query):
